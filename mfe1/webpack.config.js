@@ -27,7 +27,8 @@ module.exports = {
                 name: 'MFE1',
                 filename: 'remoteEntry.js',
                 exposes: {
-                    './Button': './src/components/Button'
+                    './Button': './src/components/Button',
+                    './Card': './src/components/Card'
                 },
             },
         ),
