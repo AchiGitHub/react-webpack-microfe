@@ -13,7 +13,7 @@ function App() {
   return (
     <div style={{ textAlign: 'center' }}>
       <h1>Celebrities: Renders from MFE2</h1>
-      <h2>Cards Renderd from MFE1</h2>
+      <h2>Cards Rendered from MFE1</h2>
       <div style={styles.gridContainer}>
         <React.Suspense fallback='Loading Button'>
           {data.map((item, idx) => {
